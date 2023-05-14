@@ -8,5 +8,6 @@ int main(void){
         MB_OK | MB_ICONINFORMATION
     );
 
+    return 0;
 
 }
