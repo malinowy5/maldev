@@ -1,4 +1,4 @@
-a=open("input", 'r').read()
+a=open("c:\\Programowanie\\malware dev\\maldev\\shellcode injection\\input.txt", 'r').read()
 
 a=a.split()
 
