@@ -34,7 +34,7 @@ int main(int argc, char* argv[]){
 
 	printf("[*] Pointer to allocated memory: %x\n", addr_pointer);
 
-    sleep(1);
+    //sleep(1);
 
 	bool res = WriteProcessMemory(
 		hProc,
@@ -49,7 +49,7 @@ int main(int argc, char* argv[]){
 	}
 	printf("[*] Memory allocated succesfully\n");
 
-    sleep(1);
+    //sleep(1);
 
 	HANDLE hThread = CreateThread(
 		NULL,
